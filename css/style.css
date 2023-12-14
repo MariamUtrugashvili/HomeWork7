@@ -177,3 +177,61 @@ button:hover {
     font-size: 20px;
     font-weight: 700;
 }
+
+/* footer */
+
+footer {
+    background-color: #372D23;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 300px;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.footerList {
+    display: flex;
+    row-gap: 8px;
+    margin-top: 16px;
+    flex-direction: column;
+}
+
+.menuElements {
+    color: #B89278;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.iconsContainer {
+    display: flex;
+    column-gap: 16px;
+    margin-top: 16px;
+    align-items: top;
+}
+
+.contactTxt {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    line-height: 28px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.icons {
+    color: #FCC21B;
+    font-size: 20px;
+    gap: 16px;
+}
