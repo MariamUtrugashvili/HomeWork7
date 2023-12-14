@@ -20,13 +20,13 @@ header {
     z-index: 1;
 }
 
-ul{
+ul {
     justify-content: center;
     display: flex;
     column-gap: 48px;
 }
 
-.list{
+.list {
     color: #B89278;
     font-family: 'Inter';
     font-size: 24px;
@@ -40,18 +40,18 @@ ul{
 
 /* section */
 
-.section1{
+.section1 {
     height: 640px;
     position: relative;
 }
 
 .sectionContainer {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
+    transform: translate(-50%, -50%);
 }
-    
+
 
 .coverPic {
     object-fit: cover;
@@ -59,11 +59,11 @@ ul{
     height: 100%;
 }
 
-.sectionButton{
-    background-color: transparent; 
+.sectionButton {
+    background-color: transparent;
     color: #FFF;
     font-family: Inter;
-    line-height: 28px; 
+    line-height: 28px;
     border: 3px solid #FCC21B;
     box-shadow: 0px 4px 4px 0px #372D23;
     padding: 12px 38px;
@@ -73,14 +73,14 @@ ul{
     margin-top: 30px;
 }
 
-h2{
-color: #FFF;
-text-shadow: 0px 6px 4px #372D23;
-font-family: Inter;
-line-height: 56px; 
-margin-bottom: 44px;
-font-size: 48px;
-font-weight: 700;
+h2 {
+    color: #FFF;
+    text-shadow: 0px 6px 4px #372D23;
+    font-family: Inter;
+    line-height: 56px;
+    margin-bottom: 44px;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 
@@ -93,12 +93,12 @@ button:hover {
 
 /* section2 */
 
-.section2{
+.section2 {
     display: flex;
     justify-content: center;
     column-gap: 40px;
     padding: 80px 80px;
-    
+
 }
 
 .cardContainer {
@@ -110,10 +110,10 @@ button:hover {
 .cardImg {
     object-fit: cover;
     width: 100%;
-    height: 100%;  
+    height: 100%;
 }
 
-.cardContent{
+.cardContent {
     background-color: rgba(55, 45, 35, 0.8);
     position: absolute;
     bottom: 0;
@@ -126,11 +126,54 @@ button:hover {
     column-gap: 16px;
 }
 
-.cardTxt{
-color: #FFF;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px;
+.cardTxt {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+/* article */
+.article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    margin-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    font-weight: 700;
+    line-height: 48px;
+    color: #372D23;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+
+
+.articleTxt {
+    width: 1060px;
+    color: #855C52;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.articleButton {
+    background: #ED6C30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    line-height: 28px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    padding: 12px 40px;
+    font-size: 20px;
+    font-weight: 700;
 }
